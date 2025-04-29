@@ -6,9 +6,9 @@
 
 ---
 
-# Capítulo 1 – Despertar da Rede Neural
+# Enterprise Challenge - Sprint 2 - Ingredion
 
-### Projeto PBL - Fase 6
+### Fase 6
 
 ---
 
@@ -36,7 +36,7 @@ Este repositório apresenta a **Sprint 2** do desafio proposto pela empresa **In
 
 ### 📈 Entrega Única – Modelagem e Análise de Produtividade com NDVI
 
-📓 [`Notebook Sprint 2`](./sprint2_modelagem_produtividade.ipynb)
+📓 [`Notebook Sprint 2`](pipeline_previsao_produtividade.ipynb)
 
 ---
 
@@ -85,20 +85,18 @@ A escolha se baseou na simplicidade (Regressão Linear) e capacidade de modelar 
 
 ### 4️⃣ Análises Exploratórias e Estatísticas
 
-**Gráfico 1 – Sazonalidade NDVI por Mês**  
+**Gráfico 1 – Sazonalidade NDVI por Mês**
 Mostra os picos de vegetação no início do ano, e declínio no inverno:
 
-📷 _[Inserido no notebook]_
+![Sazonalidade NDVI por Mês](assets/sazonalidade.png)
 
-**Gráfico 2 – Correlação entre NDVI e Produtividade**  
+**Correlação entre NDVI e Produtividade**
 Correlação positiva moderada (r ≈ 0.34), confirmando o NDVI como preditor relevante:
 
-📷 _[Inserido no notebook]_
-
-**Gráfico 3 – Observado vs Predito (2023)**  
+**Gráfico 3 – Observado vs Predito (2023)**
 Compara os valores previstos por cada modelo com o valor real observado:
 
-📷 _[Inserido no notebook]_
+![Observado vs Predito](assets/observado.png)
 
 ---
 
@@ -106,11 +104,11 @@ Compara os valores previstos por cada modelo com o valor real observado:
 
 A imagem abaixo mostra a área monitorada (talhão) delimitada na plataforma SATVeg, utilizada para extrair os valores médios de NDVI:
 
-![Mapa do Talhão - SATVeg](Captura%20de%20Tela%202025-04-28%20às%2006.11.49.png)
+![Mapa do Talhão - SATVeg](files/talhao.png)
 
 Além disso, a curva abaixo apresenta a evolução do NDVI no período de 2021 a 2023, demonstrando ciclos vegetativos coerentes com o padrão da cultura do café:
 
-![NDVI por Semana (2021–2023)](ndvi_tres_coracoes.png)
+![NDVI por Semana (2021–2023)](files/ndvi_tres_coracoes.png)
 
 > A segmentação foi feita de forma manual com base na visualização do talhão, e os dados utilizados refletem exclusivamente a área cultivada, atendendo ao objetivo da etapa.
 
@@ -151,9 +149,11 @@ _Nota: Como o teste foi feito com um único ponto (ano 2023), o R² não é apli
 
 ---
 
-## ▶️ Demonstração em Vídeo
+## ▶️ Youtube
 
-🎥
+<p align="center">
+<a href= "https://youtu.be/oXkG2Uig_yw"><img src="https://img.youtube.com/vi/oXkG2Uig_yw/hqdefault.jpg" alt="Pipeline Previsão Produtividade" border="0" width=55% height=55%></a>
+</p>
 
 ---
 
